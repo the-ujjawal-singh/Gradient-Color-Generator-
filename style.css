@@ -1,0 +1,84 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Basic Section Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 400px;
+}
+
+/* Heading Styles */
+h2 {
+    margin-top: 20px;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Button Styles */
+button {
+    background-color: #051937;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #008793;
+}
+
+/* Div containing gradient background */
+.copycode {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    font-family: monospace;
+    word-wrap: break-word;
+}
+
+/* Button container alignment */
+div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+}
